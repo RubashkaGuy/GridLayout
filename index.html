@@ -1,20 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grid Layout</title>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
-<body>
+
+<body class="max-w-[1496px] mr-auto ml-auto">
     <header class="">
-        
+        <div class="flex items-center justify-between py-[10px]">
+            <a class="text-[18px] font-bold" href=""><img src="" alt="">Логотип</a>
+            <nav class="flex">
+                <menu class="flex gap-[20px]">
+                    <li class="inline-flex "><a class="text-[18px] font-regular text-[black]" href="">Web</a></li>
+                    <li class="inline-flex "><a class="text-[18px] font-regular text-[black]" href="">Sports</a></li>
+                    <li class="inline-flex "><a class="text-[18px] font-regular text-[black]" href="">Opinion</a></li>
+                    <li class="inline-flex "><a class="text-[18px] font-regular text-[black]" href="">Lifestyle</a></li>
+                    <li class="inline-flex "><a class="text-[18px] font-regular text-[black]" href="">Business</a></li>
+                    <li class="inline-flex "><a class="text-[18px] font-regular text-[black]" href="">Culture</a></li>
+                    <li class="inline-flex "><a class="text-[18px] font-regular text-[black]" href="">Fashion</a></li>
+                    <li class="inline-flex "><a class="text-[18px] font-regular text-[black]" href="">Tech</a></li>
+                </menu>
+            </nav>
+            <div class="">
+                <img class="size-[35px] border rounded-full object-cover" src="{{asset (" storage/1.jpg")}}" alt="">
+            </div>
+        </div>
     </header>
     <main>
-
+        <section>
+            <div class="mt-[70px] max-w-[390px] ml-auto mr-auto">
+                <div class="flex flex-col gap-[10px]">
+                    <h1 class="font-black text-[24px]">Lifestyle</h1>
+                    <p class="max-w-[75%]">The latest and best Lifestyle articles selected by our auditorial ofice</p>
+                </div>
+                <div class="max-w-[390px] ml-auto mr-auto" style=""><!-- GRID -->
+                    <div class="bg-red-500">
+                        <div class="">
+                            <p class="">FOOD</p>
+                            <h2 class="">Wake Up and Smell the Coffee</h2>
+                        </div>
+                        <a href="#!" class="">
+                            <span>Read for $0.99</span>
+                        </a>
+                    </div>
+                    <div class="bg-red-500">
+                        <div class="">
+                            <p class="">FOOD</p>
+                            <h2 class="">Wake Up and Smell the Coffee</h2>
+                        </div>
+                        <a href="#!" class="">
+                            <span>Read for $0.99</span>
+                        </a>
+                    </div>
+                    <div class="bg-red-500">
+                        <div class="">
+                            <p class="">FOOD</p>
+                            <h2 class="">Wake Up and Smell the Coffee</h2>
+                        </div>
+                        <a href="#!" class="">
+                            <span>Read for $0.99</span>
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
     </main>
     <footer>
 
     </footer>
 </body>
+
 </html>
